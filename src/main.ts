@@ -13,7 +13,7 @@ async function bootstrap() {
         'http://localhost:3000', 
         'https://danylousergit.github.io/horoscope/',
       ], 
-      credentials: true,
+      credentials: false,
     }
   );
   app.useGlobalPipes(new ValidationPipe());
