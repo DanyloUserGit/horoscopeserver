@@ -11,9 +11,9 @@ async function bootstrap() {
     {
       origin: ['http://localhost:5000',
         'http://localhost:3000', 
-        'https://danylousergit.github.io/horoscope/',
+        'https://danylousergit.github.io',
       ], 
-      credentials: false,
+      credentials: true,
     }
   );
   app.useGlobalPipes(new ValidationPipe());
